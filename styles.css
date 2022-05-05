@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(184, 221, 255);
+}
+
+form {
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: rgb(160,197,232);
+    box-shadow: 4px 2px 8px grey;
+}
+
+h1 {
+    margin: 1rem 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.required {
+    color: rgb(250, 62, 62);
+}
+
+.form-control {
+    padding: 0.25rem;
+}
+
+.gender-identity {
+    padding: 0.25rem 0;
+    margin: 0;
+    text-align: left;
+}
+
+.btn {
+    display: block;
+    margin: 0.2rem;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgb(0, 151, 252);
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px 4px grey;
+    background-color:rgb(0, 137, 228);
+}
+
+p {
+    margin: 0.5rem;
+    text-align: center;
+}
